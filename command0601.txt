@@ -1,0 +1,100 @@
+  676  cp routes.py save_routes.py
+  677  python3 create_db.py
+  678  cd ..
+  679  python3 create_db.py
+  680  python3 mk_products.py
+  681  python3 mk_reviews.py
+  682  python3 create_db.py
+  683  python3 mk_products.py
+  684  python3 mk_reviews.py
+  685  flask run
+  686  git status
+  687  git add -A
+  688  git commit -m 'add the product level review capability'
+  689  git remote -v
+  690  pit push
+  691  git push
+  692  pit push -m 111_Comp
+  693  git push -m 111_Comp
+  694  git push 111_Comp
+  695  git push -v main 111_Comp
+  696  deactivate
+  697  cd ..
+  698  dir
+  699  cd fsdi_112
+  700  dir
+  701  code .
+  702  dir
+  703  cd ..
+  704  cd message_board
+  705  dir
+  706  code .
+  707  pip3 freeze
+  708  pip3 freeze > requirements.txt
+  709  dir
+  710  code .
+  711  source venv/bin/activate
+  712  python3 manage.py makemigrations
+  713  python3 manage.py migrate
+  714  python3 manage.py createsuperuser
+  715  python3 manage.py runserver
+  716  git status
+  717  git add -A
+  718  git commit -m 'add a basic model to save posts'
+  719  git remote
+  720  git remote -v
+  721  git push
+  722  git log
+  723  clear 
+  724  python3 manage.py test
+  725  git status
+  726  git add -A
+  727  git commit -m 'added tests'
+  728  git push
+  729  pip3 install gunicorn
+  730  pip3 freeze > requirements.txt
+  731  touch Procfile
+  732  code .
+  733  clear
+  734  heroku create
+  735  git config --list
+  736  git add -A
+  737  git commit -m 'added heroku updates'
+  738  git push
+  739  git push heroku main
+  740  heroku config:set DISABLE_COLLECTSTATIC=1
+  741  git push heroku main
+  742  heroku ps:scale web=1
+  743  heroku open
+  744  deactivate
+  745  cd ..
+  746  mkdir blog && cd blog
+  747  python3 -m venv venv
+  748  source venv/bin/activate
+  749  pip3 install django
+  750  django-admin startproject config .
+  751  python3 manage.py startapp blog
+  752  python3 manage.py migrate
+  753  code .
+  754  python3 manage.py run
+  755  python3 manage.py runserver
+  756  python3 manage.py makemigrations blog
+  757  pytho3 manage.py migrate blog
+  758  python3 manage.py migrate blog
+  759  python3 manage.py createsuperuser
+  760  python3 manage.py runserver
+  761  clear
+  762  touch blog/urls.py
+  763  code .
+  764  python3 manage.py runserver
+  765  pip3 freeze > requirements.txt
+  766  git init
+  767  git status
+  768  git add -A
+  769  git commit -m 'first commit for blog application'
+  770  git remote add origin git@github.com:fbotero1956/blog.git
+  771  git branch -M main
+  772  git push -u origin main
+  773  history 100
+  774  history > command0601.txt
+  775  history 100 > command0601.txt

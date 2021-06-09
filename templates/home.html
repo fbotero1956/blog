@@ -1,10 +1,16 @@
 {% extends 'base.html' %} 
 
 {% block content %} 
-    {% for post in object_list %} 
-    <div class="post-entry">
-        <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
-        <p>{{ post.body  }}</p>
-    </div>
-    {% endfor %} 
+    {% if user.is_authenticated %} 
+        {% for post in object_list %} 
+            <div class="post-entry container">
+                <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
+                <p>{{ post.body  }}</p>
+            </div>
+        {% endfor %} 
+    {% else %} 
+        <div class="container">
+            <h2>Please log in, so that we can authenticate our users and be a responsible enterprise!</h2>
+        </div>
+    {% endif %}
 {% endblock content %} 

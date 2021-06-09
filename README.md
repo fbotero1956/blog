@@ -1,2 +1,4 @@
 # my django blog application
-## for FSDI 112
+## the Heroku Url is:
+
+# https://glacial-beyond-74548.herokuapp.com/

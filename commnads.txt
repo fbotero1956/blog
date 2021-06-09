@@ -1,0 +1,200 @@
+  697  cd ..
+  698  dir
+  699  cd fsdi_112
+  700  dir
+  701  code .
+  702  dir
+  703  cd ..
+  704  cd message_board
+  705  dir
+  706  code .
+  707  pip3 freeze
+  708  pip3 freeze > requirements.txt
+  709  dir
+  710  code .
+  711  source venv/bin/activate
+  712  python3 manage.py makemigrations
+  713  python3 manage.py migrate
+  714  python3 manage.py createsuperuser
+  715  python3 manage.py runserver
+  716  git status
+  717  git add -A
+  718  git commit -m 'add a basic model to save posts'
+  719  git remote
+  720  git remote -v
+  721  git push
+  722  git log
+  723  clear 
+  724  python3 manage.py test
+  725  git status
+  726  git add -A
+  727  git commit -m 'added tests'
+  728  git push
+  729  pip3 install gunicorn
+  730  pip3 freeze > requirements.txt
+  731  touch Procfile
+  732  code .
+  733  clear
+  734  heroku create
+  735  git config --list
+  736  git add -A
+  737  git commit -m 'added heroku updates'
+  738  git push
+  739  git push heroku main
+  740  heroku config:set DISABLE_COLLECTSTATIC=1
+  741  git push heroku main
+  742  heroku ps:scale web=1
+  743  heroku open
+  744  deactivate
+  745  cd ..
+  746  mkdir blog && cd blog
+  747  python3 -m venv venv
+  748  source venv/bin/activate
+  749  pip3 install django
+  750  django-admin startproject config .
+  751  python3 manage.py startapp blog
+  752  python3 manage.py migrate
+  753  code .
+  754  python3 manage.py run
+  755  python3 manage.py runserver
+  756  python3 manage.py makemigrations blog
+  757  pytho3 manage.py migrate blog
+  758  python3 manage.py migrate blog
+  759  python3 manage.py createsuperuser
+  760  python3 manage.py runserver
+  761  clear
+  762  touch blog/urls.py
+  763  code .
+  764  python3 manage.py runserver
+  765  pip3 freeze > requirements.txt
+  766  git init
+  767  git status
+  768  git add -A
+  769  git commit -m 'first commit for blog application'
+  770  git remote add origin git@github.com:fbotero1956/blog.git
+  771  git branch -M main
+  772  git push -u origin main
+  773  history 100
+  774  history > command0601.txt
+  775  history 100 > command0601.txt
+  776  history 100
+  777  deactivate
+  778  cd ..
+  779  dir
+  780  cd message_board
+  781  dir
+  782  cp ../FelipeBoteroSelfie.jpg
+  783  cp ../FelipeBoteroSelfie.jpg FB.jpg
+  784  dir
+  785  code .
+  786  cd ..
+  787  dir
+  788  cd fsdi_112
+  789  dir
+  790  cp ../FelipeBoteroSelfie.jpg FB.jpg
+  791  dir
+  792  code .
+  793  python3 manage.py runserver
+  794  dir
+  795  python3 manage.py runserver
+  796  pip3 freeze
+  797  dir
+  798  source venv/bin/activate
+  799  python3 manage.py runserver
+  800  git status
+  801  git add -A
+  802  git commit -m 'added image on about page'
+  803  git remote -v
+  804  pit push origin main
+  805  git branch
+  806  git log
+  807  git push -v origin main
+  808  cd ..
+  809  dir
+  810  cd message_board
+  811  dir
+  812  code .
+  813  deactivate
+  814  source venv/bin/activate
+  815  dir
+  816  cd posts
+  817  dir
+  818  cd ..
+  819  dir
+  820  cd blog
+  821  dir
+  822  code .
+  823  deactivate
+  824  source venv/bin/activate
+  825  python3 manage.py runserver
+  826  python3 manage.py tests.py
+  827  dir
+  828  python3 manage.py tests.py
+  829  python3 manage.py tests.
+  830  python3 manage.py tests
+  831  python3 manage.py blog/tests.py
+  832  python3 manage.py blog/tests
+  833  cd blog
+  834  python3 manage.py tests
+  835  python3 manage.py test
+  836  cd ..
+  837  python3 manage.py test
+  838  clear
+  839  python3 manage.py test
+  840  git status
+  841  git add -A
+  842  git commit -m 'added tests'
+  843  git push
+  844  code .
+  845  python3 manage.py runserver
+  846  python3 manage.py test
+  847  git add -A
+  848  git commit -m 'added update and delete'
+  849  git push
+  850  python3 manage.py runserver
+  851  git add -A
+  852  git commit -m 'added login functionality'
+  853  git push
+  854  python3 manage.py runserver
+  855  code .
+  856  python3 manage.py runserver
+  857  python3 manage.py startappa ccounts
+  858  python3 manage.py startapp ccounts
+  859  python3 manage.py startapp accounts
+  860  dir
+  861  rm ccounts
+  862  rmdir ccounts
+  863  del ccounts
+  864  python3 manage.py runserver
+  865  git status
+  866  git add -A
+  867  git commit -m 'added create user'
+  868  git push
+  869  git remote
+  870  git remote -v
+  871  git branch
+  872  python3 manage.py collectstatic
+  873  pip3 install whitenoise
+  874  pip3 freeze > requirements.txt
+  875  python3 manage.py collectstatic
+  876  pip3 freeze
+  877  deactivate
+  878  source venv/bin/activate
+  879  pip3 freeze
+  880  python3 manage.py collectstatic
+  881  pip3 install gunicorn
+  882  pip3 freeze > requirements.txt
+  883  touch Procfile
+  884  heroku create
+  885  clear
+  886  git config --list
+  887  git status
+  888  git add -A
+  889  git commit -m 'added whitenoise'
+  890  git push
+  891  git push heroku main
+  892  heroku ps:scale web=1
+  893  deactivate
+  894  cd ..
+  895  cd blog
+  896  history 200  > commnads.txt

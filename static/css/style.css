@@ -36,3 +36,6 @@ header{
 post-entry h2 a:hover{
     color: red;
 }
+#demo{
+    margin-left:100px;
+}
